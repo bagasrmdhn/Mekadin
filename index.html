@@ -16,7 +16,7 @@
 <section class="w3l-bootstrap-header">
   <nav class="navbar navbar-expand-md navbar-light py-3">
     <div class="container">
-    <!--  <a class="navbar-brand" href="index.html"><img src="assets/images/award.png" class="img-fluid" width="52px">
+      <!--  <a class="navbar-brand" href="index.html"><img src="assets/images/award.png" class="img-fluid" width="52px">
         Mekadin</a>-->
     <a class="navbar-brand" href="#index.html">
         <img src="assets/images/logo-mekadin.png" alt="Your logo" title="Your logo" style="height:50px;" />
@@ -28,14 +28,14 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="about.html">About</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -55,6 +55,7 @@
 
 
 <!-- Domain Modal -->
+<!-- Domain Modal -->
 <div class="modal right fade" id="DomainModal" tabindex="-1" role="dialog" aria-labelledby="DomainModalLabel2">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -64,11 +65,16 @@
 
       <div class="modal-body">
         <div class="modal__content">
-     <!--<h2 class="logo"><img src="assets/images/award.png" class="img-fluid"> Medpill</h2> -->   
-     <h2 class="logo">
-      <img src="asesets/images/logo-mekadin" alt="Your logo" title="Your logo" style="height:35px;" />
-    </h2>
-          <p class="mt-md-3 mt-2">Lorem ipsum dolor sit amet, elit. Eos expedita ipsam at fugiat ab.</p>
+          <h2 class="logo"><img style="height: 50px;" src="assets/images/logo-mekadin.png" class="img-fluid"> </h2>
+          <!-- if logo is image enable this   
+          <h2 class="logo">
+            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+          </h2> -->
+          <p class="mt-md-3 mt-2">Kami menyediakan layanan jasa yang lengkap di
+            bidang kesehatan (full scope of services for the
+            healthcare industry). Hal ini sesuai dengan visi
+            Perusahaan untuk menjadi One Stop Solution
+            Provider for All the Healthcare Needs. </p>
           <div class="widget-menu-items mt-sm-5 mt-4">
             <h5 class="widget-title">Menu Items</h5>
             <nav class="navbar p-0">
@@ -76,10 +82,10 @@
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="services.html">Services</a>
                 </li>
                 <li class="nav-item">
@@ -92,29 +98,34 @@
             <h5 class="widget-title">Contact Us</h5>
             <ul class="icon-rounded address">
               <li>
-                <p> #135 block, Barnard St. Brooklyn, <br>NY 10036, USA</p>
+                <p> Jl. Tebet Barat Raya NO.31E, <br>Jakarta 12810</p>
               </li>
               <li class="mt-3">
-                <p><span class="fa fa-phone"></span> <a href="tel:+404-11-22-89">+1-2345-345-678-11</a></p>
+                <p><span class="fa fa-phone"></span> <a href="tel:+628112005656">+62 811 200 5656</a></p>
+              </li>
+              <br>
+              <li class="mt-3">
+                <p><span class="fa fa-phone"></span> <a href="tel:+622122902996">+62 21 2290 2996</a></p>
               </li>
               <li class="mt-2">
                 <p><span class="fa fa-envelope"></span> <a
-                    href="mailto:medpillhospital@mail.com">medpillhospital@mail.com</a></p>
+                    href="mailto:wibisono@mekadin.com">wibisono@mekadin.com</a></p>
               </li>
               <li class="top_li1 mt-2">
-                <p><span class="fa fa-clock-o"></span> <a href="mailto:medpillhospital@mail.com">Mon - Sun 09:00 - 21:00
+                <p><span class="fa fa-clock-o"></span> <a href="mailto:wibisono@mekadin.com">Mon - Sun 09:00 - 21:00
                   </a></p>
               </li>
             </ul>
           </div>
-          <div class="widget-social-icons mt-sm-5 mt-4">
+          <!--<div class="widget-social-icons mt-sm-5 mt-4">
             <h5 class="widget-title">Follow Us</h5>
             <ul class="icon-rounded">
               <li><a class="social-link twitter" href="#url" target="_blank"><i class="fa fa-twitter"></i></a></li>
               <li><a class="social-link linkedin" href="#url" target="_blank"><i class="fa fa-linkedin"></i></a></li>
               <li><a class="social-link tumblr" href="#url" target="_blank"><i class="fa fa-tumblr"></i></a></li>
             </ul>
-          </div>
+          </div> -->
+
 
 
         </div>
@@ -125,21 +136,75 @@
   <!-- //modal-dialog -->
 </div>
 <!-- //Domain modal -->
-<section class="w3l-about-breadcrumb">
-  <div class="breadcrumb-bg breadcrumb-bg-about py-5">
-    <div class="container py-lg-5 py-md-3">
-      <h2>About Us</h2>
-      <p></p>
+<section class="w3l-main-slider" id="home">
+  <!-- main-slider -->
+  <div class="companies20-content">
+   
+    <div class="owl-one owl-carousel owl-theme">
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view bg bg2">
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg">
+                  <h5>We Deliver Top Quality Brands</h5>
+                  <p>Donec maximus erat quis magna tincidunt, et ullamcorper ex condimentum. Pellentesque 
+                    volutpat lectus felis, sit amet dapibus tortor convallis sit amet. Quisque egestas sem quis 
+                    augue porta, et iaculis massa consequat.</p>
+                  <a class="btn btn-style btn-style-outline mt-sm-5 mt-4" href="#services"> Our Services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info  banner-view banner-top1 bg bg2">
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg">
+                  <h5>We Provide total Health care solution</h5>
+                  <p>Donec maximus erat quis magna tincidunt, et ullamcorper ex condimentum. Pellentesque 
+                    volutpat lectus felis, sit amet dapibus tortor convallis sit amet. Quisque egestas sem quis 
+                    augue porta, et iaculis massa consequat.</p>
+                    <a class="btn btn-style btn-style-outline mt-sm-5 mt-4" href="#services"> Our Services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view banner-top3 bg bg2" >
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg">
+                  <h5>The Largest and most respected Agencies</h5>
+                  <p>Donec maximus erat quis magna tincidunt, et ullamcorper ex condimentum. Pellentesque 
+                    volutpat lectus felis, sit amet dapibus tortor convallis sit amet. Quisque egestas sem quis 
+                    augue porta, et iaculis massa consequat.</p>
+                    <a class="btn btn-style btn-style-outline mt-sm-5 mt-4" href="#services"> Our Services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
     </div>
   </div>
+</div>
+  <!-- /main-slider -->
 </section>
 
+
 <!-- w3l-content-photo-5 -->
-<div class="w3l-content-photo-5 py-5">
+<div id="about" class="w3l-content-photo-5 py-5">
 	<div class="content-main py-lg-5 py-md-3">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 content-left">
+				<div style="text-align: justify;" class="col-lg-8 content-left">
 					<h4>Kami mampu menyediakan layanan jasa yang lengkap di
             bidang kesehatan </h4>
 					<p class="mb-0">PT.Mekadin Pratama didirikan oleh para pendiri
@@ -219,7 +284,7 @@
                 <div class="col-lg-5 right-img sec-img-ab p-0 mx-sm-0 mx-4">
                     <img src="assets/images/service.jpg" alt="" class="img-responsive img-fluid" />
                 </div>
-                <div class="offset-lg-1 col-lg-6 left-cont sec-grid-ab mt-lg-0 mt-5">
+                <div style="text-align: justify;" class="offset-lg-1 col-lg-6 left-cont sec-grid-ab mt-lg-0 mt-5">
                     <h4>Our Journey</h4>
                     <p>Selama berjalannya waktu, Perusahaan telah berhasil melayani pelanggan, baik untuk sektor
                       pemerintahan maupun swasta dengan pendekatan yang santun, kualitas prima, jadwal pekerjaan tepat
@@ -234,8 +299,111 @@
         </div>
     </div>
 </section>
-   <!-- footer-28 block -->
-   <section class="w3l-medpill-footer ">
+<!-- //apply-6-->
+<section class="w3l-features-7 py-5">
+  <!-- /features -->
+  <div id="services" class="features py-lg-5 py-sm-3" id="services">
+      <div class="container">
+          <h3 class="title text-center mb-sm-5 mb-4 pb-lg-4">We Provide High Quality Services</h3>
+          <div class="row fea-gd-vv">
+              <div class="col-lg-4 col-md-6 float-lt feature-gd">
+                  <div class="icon"> <img src="assets/images/s1.png" class="img-fluid"></div>
+                  <div class="icon-info">
+                      <h5><a href="#url">Integrated Support Services</a></h5>
+                      <p>Lorem, ipsum dolor sit amet consec tetur adipis icing elit. sed pariatur magnam omnis
+                          minima.</p>
+                  </div>
+
+              </div>
+              <div class="col-lg-4 col-md-6 float-mid feature-gd mt-md-0 mt-sm-5 mt-4">
+                  <div class="icon"> <img src="assets/images/s2.png" class="img-fluid"></div>
+                  <div class="icon-info">
+                      <h5><a href="#url">Project & Hospital Management Services</a></h5>
+                      <p>Lorem, ipsum dolor sit amet consec tetur adipis icing elit. sed pariatur magnam omnis
+                          minima.</p>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 float-rt feature-gd mt-lg-0 mt-sm-5 mt-4">
+                  <div class="icon"> <img src="assets/images/s3.png" class="img-fluid"></div>
+                  <div class="icon-info">
+                      <h5><a href="#url">Develop Medical Management Information System</a></h5>
+                      <p>Lorem, ipsum dolor sit amet consec tetur adipis icing elit. sed pariatur magnam omnis
+                          minima.</p>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 float-lt feature-gd mt-sm-5 mt-4">
+                  <div class="icon"> <img src="assets/images/s4.png" class="img-fluid"></div>
+                  <div class="icon-info">
+                      <h5><a href="#url">Medical Device Distributor</a></h5>
+                      <p>Lorem, ipsum dolor sit amet consec tetur adipis icing elit. sed pariatur magnam omnis
+                          minima.</p>
+                  </div>
+
+              </div>
+              <div class="col-lg-4 col-md-6 float-mid feature-gd mt-sm-5 mt-4">
+                  <div class="icon"> <img src="assets/images/s5.png" class="img-fluid"></div>
+                  <div class="icon-info">
+                      <h5><a href="#url">Training & Development</a>
+                      </h5>
+                      <p>Lorem, ipsum dolor sit amet consec tetur adipis icing elit. sed pariatur magnam omnis
+                          minima.</p>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 float-rt feature-gd mt-sm-5 mt-4">
+                  <div class="icon"> <img src="assets/images/s6.png" class="img-fluid"></div>
+                  <div class="icon-info">
+                      <h5><a href="#url">Hospital Maintenance Management Services</a>
+                      </h5>
+                      <p>Lorem, ipsum dolor sit amet consec tetur adipis icing elit. sed pariatur magnam omnis
+                          minima.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- //features -->
+</section>
+<!-- services 1-->
+
+<!-- Medical Checkup -->
+<section class="w3l-grid-quote py-5 bg-primary">
+  <div class="container py-lg-3">
+      <h6><img src="assets/images/sthethoscope.png" class="img-fluid"> Special Offer!</h6>
+      <h3>Get in Touch With Us </h3>
+      <a href="contact.html" class="btn btn-secondary btn-style-white">Contact Us</a>
+  </div>
+</section>
+<section class="w3l-call-to-action_9 py-5">
+    <div class="call-w3">
+        <div class="container">
+            <div class=" main-cont-wthree-2">
+                <div class="left-contect-calls text-center">
+                    <h3 class="title mb-sm-5 mb-4">Certificates & Standards</h3>
+                  <div class="call-grids-w3 ">
+                        <a href="#url" class="">
+                            <img src="assets/images/Kimia_Farma_logo.png" class="img-fluid" alt="">
+                        </a>
+
+                        <a href="#url" class="">
+                            <img src="assets/images/rs_pluit_logo.png" class="img-fluid" alt="">
+                        </a>
+                        <a href="#url" class="">
+                            <img src="assets/images/rs_aura.png" class="img-fluid" alt="">
+                        </a>
+                        <a href="#url" class="">
+                            <img src="assets/images/download.png" class="img-fluid" alt="">
+                        </a>
+                        <a href="#url" class="">
+                            <img src="assets/images/Rumah_Sakit_Santa_Maria_Pekanbaru.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- footer-28 block -->
+  <section class="w3l-medpill-footer ">
     <footer class="footer-28">
       <div class="footer-bg-layer">
         <div class="container py-lg-3">
